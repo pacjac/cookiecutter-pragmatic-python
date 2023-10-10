@@ -13,9 +13,6 @@ packages = [
     { include = "{{cookiecutter.package_name}}" },
 ]
 {% endif -%}
-classifiers = [
-    "{{cookiecutter.development_status}}",
-]
 
 [tool.poetry.urls]
 Changelog = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/releases"
