@@ -1,7 +1,7 @@
-import glue
-import pytest  # noqa
+"""Test the version of the package."""
+import {{cookiecutter.package_name}}
 
 
 def test_glue_version() -> None:
     """Test that the glue version is correct."""
-    assert glue.__version__ == "0.1.0"
+    assert {{cookiecutter.package_name}}.__version__ == "0.1.0"
