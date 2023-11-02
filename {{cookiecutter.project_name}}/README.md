@@ -35,15 +35,6 @@ You can install _{{cookiecutter.friendly_name}}_ via [pip] from [PyPI]:
 $ pip install {{cookiecutter.project_name}}
 ```
 
-## Usage
-
-Please see the [Command-line Reference] for details.
-
-## Contributing
-
-Contributions are very welcome.
-To learn more, see the [Contributor Guide].
-
 ## License
 
 Distributed under the terms of the [MIT license][license],
@@ -55,6 +46,7 @@ If you encounter any problems,
 please [file an issue] along with a detailed description.
 
 ## Credits
+Based on modified version of [hypermodern python cookiecutter].
 
 [pypi]: https://pypi.org/
 [hypermodern python cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
